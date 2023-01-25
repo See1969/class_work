@@ -1,0 +1,14 @@
+
+.header-navbar {
+  &__btn {
+    display: none;
+  }
+
+  &__list {
+    @include unlist;
+
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
